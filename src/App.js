@@ -56,7 +56,7 @@ handleClick=async(e)=>{
         
         <input type="text" value={this.state.city} onChange={this.handleChange} required/><br></br>
         <input type="text" value={this.state.country} onChange={this.handleChange1} required /><br></br>
-<button  className="btninfo" value="submit" onClick={this.handleClick}>Get Wheather</button><br></br>
+<button  className="btninfo" onClick={this.handleClick}>Get Wheather</button><br></br>
 
         
         <h1>Temperature==</h1><h1>{this.state.temp}</h1><br></br>
